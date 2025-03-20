@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de configuración con información sensible
+.env
+config/settings.json
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de datos
+data/*.csv
+data/*.json 
